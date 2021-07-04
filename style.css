@@ -5,15 +5,12 @@ body{
 
 section{
 display: flex;
+margin-bottom: 150px;
 }
 
-.top-main{
-  background-image: url(images/top-banner.png);
-  background-repeat: no-repeat;
-}
 .helf-width{
   width: 45%;
-  padding-left: 7%;
+  padding-left: 6.5%;
 }
 .helf-width img{
   width: 90%;
@@ -35,7 +32,19 @@ color:#777 ;
   font-weight:700;
   padding: 10px 30px;
   border-radius: 5px;
-  letter-spacing: 1.5px;
+  letter-spacing: 1.2px;
   background-image: linear-gradient(to left,#FF694C, #FF9C76 );
 }
+.top-main{
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
+  .dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom ;
+  }
 
+  .dream-big-text{
+    padding-right: 75px;
+  }
