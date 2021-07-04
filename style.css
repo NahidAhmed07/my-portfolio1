@@ -37,6 +37,9 @@ color:#777 ;
   letter-spacing: 1.2px;
   background-image: linear-gradient(to left,#FF694C, #FF9C76 );
 }
+.link-btn:hover{
+  background-image: linear-gradient(to right,#FF694C, #FF9C76 );
+}
 .top-main{
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
