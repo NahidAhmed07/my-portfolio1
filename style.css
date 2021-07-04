@@ -4,8 +4,10 @@ body{
 }
 
 section{
-display: flex;
-margin-bottom: 150px;
+  margin-bottom: 150px;
+}
+.flex-container{
+  display: flex;
 }
 
 .helf-width{
@@ -44,7 +46,41 @@ color:#777 ;
     background-repeat: no-repeat;
     background-position: right bottom ;
   }
+  .experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: 0% 80%;
+  }
 
   .dream-big-text{
     padding-right: 75px;
   }
+  .experience .helf-width{
+    width: 43%;
+    padding-left:3%;
+    padding-bottom: 80px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 40px gray, -0px -0px 20px gray;
+
+  }
+  .experience .helf-width h1{
+    font-size: 35px;
+  }
+  .experience .box-1{
+    margin-left: 4%;
+    margin-right:3%;
+  }
+  .experience .box-2{
+    margin-left: 3%;
+    margin-right: 4%;
+  }
+  .experience .box-1{
+    border-left: 10px solid; 
+    border-image: linear-gradient(#FF694C, #FF9C76) 30;
+    border-image-slice:1;
+}
+  .experience .box-2{
+    border-left: 10px solid; 
+    border-image: linear-gradient(blue, cyan) 30;
+    border-image-slice:1;
+}
